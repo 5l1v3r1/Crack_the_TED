@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/Pacifico.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'MyWebFont1';
+  src: url('../fonts/theboldfont.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'MyWebFont2';
+  src: url('../fonts/BebasNeue-Regular.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'MyWebFont3';
+  src: url('../fonts/Lucida.ttf'); /* IE9 Compat Modes */
+}
+
+body{
+	font-size: 16px;
+	font-family: 'MyWebFont3', sans-serif !important;
+}
+body::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
+}
+.dequode{
+	margin-top: 18vh; 
+	margin-left: 11vw; 
+	z-index: 10;
+	width: 29vw;
+}
+.color_fella{
+	background-color: #35758E;
+	height: 100vh;
+	z-index:-2;
+}
+.logo_thomso{
+	padding:2.5vh;
+}
+.card{
+	margin-top: -78vh; 
+	background-color: white; 
+	border-radius: 20px;
+	z-index:-1;
+	-webkit-box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.2);
+	padding: 3vh;
+}
+@media screen and (max-width: 768px)
+{
+.card{
+	margin-top: 8vh; 
+	background-color: white; 
+	border-radius: 20px;
+	z-index:1;
+	-webkit-box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.2);
+	padding: 3vh;
+	width: 50vw;
+	margin-left: 25vw;
+}
+}
+.presents{
+	padding-top: .3vh;
+	color: #51a0be;
+}
+.dequode_w{
+	padding-top: 6vh;
+    font-size: 1.3em;
+    color: rgb(202,44,51);
+}
+.dequode_content{
+	padding-top: 6vh;
+	color: grey;
+	font-size: 2.2vh;
+}
+.dequode_cont{
+	padding-top: .8vh;
+	color: grey;
+	font-size: 2.2vh;
+	padding-bottom: 6vh;
+}
+.instruct{
+	background-color: rgb(202,44,51);
+	color: white;
+	padding: 3vh;
+	margin-top: -26vh; 
+	cursor: pointer;
+}
+.instruct:hover{
+	background-color: #204756;
+}
+@media screen and (max-width: 768px)
+{
+.instruct{
+
+	color: white;
+	padding: 3vh;
+	margin-top: -7vh; 
+	width: 25vw;
+	margin-left: 37.5vw;
+	z-index: 10;
+	cursor: pointer;
+}
+}
+@media screen and (min-width: 768px)
+{
+
+.screen-only
+{
+display: block;
+}
+}
+.mobile-only
+{
+display: none;
+}
+@media screen and (max-width: 768px)
+{
+.screen-only
+{
+display: none;
+}
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: white;
+}
